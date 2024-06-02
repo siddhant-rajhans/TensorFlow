@@ -1,0 +1,6 @@
+# Ignore .gitattributes file
+.gitattributes
+
+# Other files or patterns to ignore
+*.tmp
+*.log
