@@ -231,7 +231,7 @@ def compare_historys(original_history, new_history, initial_epochs=5):
     plt.show()
 
 # Define a function to unzip a zip file
-def unzip_data(filename, path):
+def unzip_data(filename):
     """
     Unzips a zip file into the current working directory.
 
@@ -241,7 +241,7 @@ def unzip_data(filename, path):
     # Open the zip file
     zip_ref = zipfile.ZipFile(filename, "r")
     # Extract the contents of the zip file
-    zip_ref.extractall('path')
+    zip_ref.extractall()
     # Close the zip file
     zip_ref.close()
 
