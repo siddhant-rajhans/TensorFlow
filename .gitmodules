@@ -1,0 +1,3 @@
+[submodule "projects/model_Food-101"]
+	path = projects/model_Food-101
+	url = git@github.com:siddhant-rajhans/model_Food-101.git
